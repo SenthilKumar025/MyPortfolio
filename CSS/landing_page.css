@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FF7978;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#sec1{
+    height: 1100px;
+    width: 2000px;
+    /* border: 5px solid black; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#a1{
+    height:800px ;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+#a2{
+    height:1100px ;
+    width: 1000px;
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+#as1{
+    height: 250px;
+    width: 1000px;
+    margin-top: 140px;
+    font-size: 100px;
+    color: white;
+    word-spacing: -40px;
+    line-height: 95px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    padding-left: 70px;
+    /* border: 2px solid black; */
+} 
+  /* ! second block  */
+#as2{
+    height: 200px;
+    width: 1000px;
+    font-size: 25px;
+    color: white;
+    padding-left: 70px;
+    line-height: 40px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+}
+
+#as3{
+    height: 100px;
+    width:1000px;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    background-color: #5D54A3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -200;
+}
+#as3 a{
+    color: white;
+    font-size: 40px;
+    font-weight: 500px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    text-decoration: none;
+    
+}
+#as4{
+    height: 900px;
+    width: 1000px;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-between;
+    margin-top: -180px;
+    padding-top: 37px;
+}
+.size{
+    height: 90px;
+    width: 800px;
+    border-radius: 15px;
+    margin-top: 40px;
+    font-weight: 100;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    
+}
+.size::placeholder{
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+input{
+    padding-top: 5px;
+    padding-left: 50px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    text-decoration: none;
+    font-size: 30px; 
+}
+#as5{
+    height: fit-content;
+    width: fit-content;
+    /* border: 2px solid blue; */
+    margin-top: 43px;
+    margin-left: 150px;
+}

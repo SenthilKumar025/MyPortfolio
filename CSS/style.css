@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    color: white;
+    z-index: 1;
+    margin: 0;
+}
+
+/* Head section starts */
+
+#logo{
+    height: fit-content;
+    width: fit-content;
+    margin-left: 56px;
+    margin-top: 20px;
+    /* border: 5px solid blue; */
+}
+
+#logo img{
+    height: 250px; width: 300px;
+}
+
+#head{
+    height: fit-content;
+    width: fit-content;
+    font-size: 40px;
+    margin-left: 1109px;
+    margin-top: -170px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Taviraj', serif;
+    /* border: 2px solid black; */
+}
+
+#h6{
+    margin-left: 1050px; 
+    font-size: 30px;margin-top: 
+    10px;color: rgb(169, 169, 170);
+}
+
+#right-menu{
+    position: relative;
+    display: inline-block;
+    float: right;
+    margin-top: -230px;
+}
+
+.menubutton {
+    height: 200px;
+    background-color: transparent;
+    padding:25px;
+    cursor: pointer;
+    /* border: 2px solid blue;  */
+}
+#right-menu:hover #dropdown-menu{
+    height: 500px;
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+    border-radius: 25px;
+    margin-left: -110px;
+}
+.atag{
+    display: none;
+}
+/* #dropdown-menu{
+    height: 400px;
+    width: 250px;
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 158px;
+    z-index: 1;
+    
+} */
+#right-menu:hover #dropdown-menu .atag
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Taviraj', serif;
+    align-items: center;
+    margin-top: 50px;
+    color:black ;
+    text-decoration: none;
+}
+/* #dropdown-menu .atag{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Taviraj', serif;
+    align-items: center;
+    margin-top: 40px;
+    color:black ;
+    text-decoration: none;
+} */
+#dropdown-menu .atag:hover{
+    background-color: #e3fc42;
+    border-radius: 20px;
+}
+
+/* Head section ends */
+
+#banner{
+   height: 1500px;
+   width: 3000px;
+   /* border: 2px solid red; */
+   margin-top: 250px;
+   margin-left: 20px;
+   /* position: fixed; */
+   display: flex; flex-direction: column;align-items: center;justify-content: center;
+}
+
+
+#profile{
+    height: 1000px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 200px;
+
+}
+#photo{
+    height: 800px;
+    width: 800px;
+    /* border: 2px solid red; */
+    margin-left: 20px;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+   
+}
+
+#photo:hover img{
+    transform: scaleX(-1);
+}
+
+#summary{
+    height:250px;
+    width: 1900px;
+    color: black;
+    background-color:#FFFFFF;
+    margin-left: 1000px;
+    margin-top: -795px;
+    text-align:justify;
+    padding-top: 20px;
+    border-radius: 20px;
+}
+
+
+#skills{
+    height: 400px;
+    width: 800px;
+    background-color: #FFFFFF;
+    color: black;
+    /* border:2px solid red; */
+    margin-left: 1000px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.sk{
+    font-size: 40px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Taviraj', serif;
+    padding-top: 10px;
+
+}
+
+
+
+/* foot starts */
+footer {
+    background-color: #1d1d1d;
+    color: rgb(253, 252, 252);
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    height: 300px;
+    width: 100%;
+    border-radius: 30px 30px 0 0;
+    display: flex;
+}
+
+#personalinfo{
+    height: 250px;
+    width: 800px;
+    /* border: 2px solid red; */
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.ft{
+    font-size: 40px;
+    font-weight:500;
+    text-align: left;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Taviraj', serif;
+}
+
+#contact{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid red; */
+    margin-left: 1400px;
+    margin-top: 30px;
+
+
+}
+
+
+@media(max-width:998px){
+    #logo {
+        height: fit-content;
+        width: fit-content;
+        margin-left: 16px;
+        margin-top: 10px; 
+    }
+    #logo img{
+        height: 60px; width: 90px;
+    }
+
+    #head{
+        height: fit-content;
+        width: fit-content;
+        font-size: 19px;
+        margin-left: 21px;
+        margin-top: 61px;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Taviraj', serif;
+        /* border: 2px solid rgb(243, 9, 9); */
+    }
+    #h6{
+        margin-left: 1050px; 
+        font-size: 30px;
+        margin-top:10px;
+        color: rgb(169, 169, 170);
+        
+    }
+
+    #right-menu{
+        position: relative;
+        display: inline-block;
+    
+        margin-top: -800px;
+        margin-left: 500px;
+    }
+    
+    .menubutton {
+        position: absolute;
+        height: 108px;
+        width: 88px;
+        background-color: transparent;
+        padding-right: 10px;
+        cursor: pointer;
+        /* border: 2px solid blue;  */
+    }
+    #right-menu:hover #dropdown-menu{
+        height: 300px;
+        width: 200px;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        z-index: 1;
+        border-radius: 25px;
+        margin-left: -150px;
+    }
+    .atag{
+        display: none;
+    }
+    /* #dropdown-menu{
+        height: 400px;
+        width: 250px;
+        display:flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 158px;
+        z-index: 1;
+        
+    } */
+    #right-menu:hover #dropdown-menu .atag
+    {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Taviraj', serif;
+        align-items: center;
+        margin-top: 30px;
+        color:black ;
+        text-decoration: none;
+    }
+    /* #dropdown-menu .atag{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        font-family: 'Hedvig Letters Sans', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Taviraj', serif;
+        align-items: center;
+        margin-top: 40px;
+        color:black ;
+        text-decoration: none;
+    } */
+    #dropdown-menu .atag:hover{
+        background-color: #e3fc42;
+        border-radius: 20px;
+    }
+}
+
+
